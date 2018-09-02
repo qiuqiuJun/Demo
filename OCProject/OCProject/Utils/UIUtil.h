@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface UIUtil : NSObject
+//按钮
 + (UIButton *)btnWithTitle:(NSString *)title bgColor:(UIColor *)bgColor titleFont:(UIFont *)titleFont titleColor:(UIColor *)titleColor selecor:(SEL)selector target:(id)target;
 @end
