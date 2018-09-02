@@ -29,7 +29,7 @@
 #pragma -mark -lazy
 - (NSMutableArray *)itemArr{
     if (nil ==  _itemArr) {
-        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"}, nil];
+        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"测试const",@"className":@"TestConstVC"}, nil];
     }
     return _itemArr;
 }

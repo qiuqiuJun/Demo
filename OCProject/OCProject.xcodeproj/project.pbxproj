@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AB9E0962858AC1C2E8CA83B /* libPods-OCProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F459C401A98BA065B51A5 /* libPods-OCProject.a */; };
+		5414FC94213C209C0098D711 /* TestConstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414FC93213C209C0098D711 /* TestConstVC.m */; };
 		54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6747213BAD6000E73D06 /* FactoryVC.m */; };
 		54AB674C213BAEEE00E73D06 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674B213BAEEE00E73D06 /* Factory.m */; };
 		54AB674F213BAF5E00E73D06 /* BaseBreakfast.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674E213BAF5E00E73D06 /* BaseBreakfast.m */; };
@@ -43,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		021AAFDF9801D3E1A563D7A8 /* Pods-OCProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCProject/Pods-OCProject.release.xcconfig"; sourceTree = "<group>"; };
+		5414FC92213C209C0098D711 /* TestConstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestConstVC.h; sourceTree = "<group>"; };
+		5414FC93213C209C0098D711 /* TestConstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestConstVC.m; sourceTree = "<group>"; };
 		54AB6747213BAD6000E73D06 /* FactoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryVC.m; sourceTree = "<group>"; };
 		54AB6748213BAD6000E73D06 /* FactoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryVC.h; sourceTree = "<group>"; };
 		54AB674A213BAEEE00E73D06 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -110,6 +113,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5414FC91213C20880098D711 /* TestConstVC */ = {
+			isa = PBXGroup;
+			children = (
+				5414FC92213C209C0098D711 /* TestConstVC.h */,
+				5414FC93213C209C0098D711 /* TestConstVC.m */,
+			);
+			path = TestConstVC;
+			sourceTree = "<group>";
+		};
 		54AB6746213BAD6000E73D06 /* factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +173,7 @@
 		54E28D0321384D1500DB4B41 /* OCProject */ = {
 			isa = PBXGroup;
 			children = (
+				5414FC91213C20880098D711 /* TestConstVC */,
 				54AB6756213BB2DD00E73D06 /* Utils */,
 				54AB6746213BAD6000E73D06 /* factory */,
 				54E28D0421384D1500DB4B41 /* AppDelegate.h */,
@@ -334,15 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OCProject-checkManifestLockResult.txt",
 			);
@@ -358,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5414FC94213C209C0098D711 /* TestConstVC.m in Sources */,
 				54AB674C213BAEEE00E73D06 /* Factory.m in Sources */,
 				54E28D1421384D1600DB4B41 /* main.m in Sources */,
 				54AB6759213BB2F500E73D06 /* UIUtil.m in Sources */,
