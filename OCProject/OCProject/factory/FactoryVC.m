@@ -56,11 +56,14 @@
     }
     BaseBreakfast *brakfast = [Factory creatBreakfast:type];
     NSLog(@"%@",[brakfast productName]);
+    
+    UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"哈哈" message:[brakfast productName] preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:nil];
+    [alertCon addAction:okAction];
+    [self presentViewController:alertCon animated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
-
 
 @end
