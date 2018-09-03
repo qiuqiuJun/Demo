@@ -41,6 +41,8 @@
 		54E28D1421384D1600DB4B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D1321384D1600DB4B41 /* main.m */; };
 		54E28D1E21384D1600DB4B41 /* OCProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D1D21384D1600DB4B41 /* OCProjectTests.m */; };
 		54E28D2921384D1600DB4B41 /* OCProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D2821384D1600DB4B41 /* OCProjectUITests.m */; };
+		54E36E74213D81AA00189E6A /* TestYYkitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E36E73213D81AA00189E6A /* TestYYkitVC.m */; };
+		54E36E77213D85B300189E6A /* FrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E36E76213D85B300189E6A /* FrameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,10 @@
 		54E28D2421384D1600DB4B41 /* OCProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E28D2821384D1600DB4B41 /* OCProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCProjectUITests.m; sourceTree = "<group>"; };
 		54E28D2A21384D1600DB4B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E36E72213D81AA00189E6A /* TestYYkitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestYYkitVC.h; sourceTree = "<group>"; };
+		54E36E73213D81AA00189E6A /* TestYYkitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestYYkitVC.m; sourceTree = "<group>"; };
+		54E36E75213D85B300189E6A /* FrameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameModel.h; sourceTree = "<group>"; };
+		54E36E76213D85B300189E6A /* FrameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameModel.m; sourceTree = "<group>"; };
 		5EDCDB49457BAB0E4B05EF8B /* Pods-OCProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCProject/Pods-OCProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0F459C401A98BA065B51A5 /* libPods-OCProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -280,6 +286,7 @@
 		54E28D0321384D1500DB4B41 /* OCProject */ = {
 			isa = PBXGroup;
 			children = (
+				54E36E6E213D80EB00189E6A /* TestYYKitVC */,
 				54738FEC213D2EB400061DDB /* Base */,
 				54738FE8213D2D5300061DDB /* CopyAndMutableCopy */,
 				54738FE6213CC9FB00061DDB /* README */,
@@ -317,6 +324,17 @@
 				54E28D2A21384D1600DB4B41 /* Info.plist */,
 			);
 			path = OCProjectUITests;
+			sourceTree = "<group>";
+		};
+		54E36E6E213D80EB00189E6A /* TestYYKitVC */ = {
+			isa = PBXGroup;
+			children = (
+				54E36E72213D81AA00189E6A /* TestYYkitVC.h */,
+				54E36E73213D81AA00189E6A /* TestYYkitVC.m */,
+				54E36E75213D85B300189E6A /* FrameModel.h */,
+				54E36E76213D85B300189E6A /* FrameModel.m */,
+			);
+			path = TestYYKitVC;
 			sourceTree = "<group>";
 		};
 		DA08B76557DACE8910017416 /* Frameworks */ = {
@@ -503,9 +521,11 @@
 				54AB6752213BAF7600E73D06 /* MantouBreakfast.m in Sources */,
 				54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */,
 				54D0C25D213AADC400D4B3E6 /* MyTableViewController.m in Sources */,
+				54E36E74213D81AA00189E6A /* TestYYkitVC.m in Sources */,
 				54738FCA213CC4F100061DDB /* UIViewController+HideAlert.m in Sources */,
 				54AB674F213BAF5E00E73D06 /* Food.m in Sources */,
 				54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */,
+				54E36E77213D85B300189E6A /* FrameModel.m in Sources */,
 				54738FEB213D2D8400061DDB /* CopyAndMutableCopyVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
