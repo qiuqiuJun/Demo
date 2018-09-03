@@ -29,8 +29,8 @@
 #pragma -mark -lazy
 - (NSMutableArray *)itemArr{
     if (nil ==  _itemArr) {
-        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"测试const",@"className":@"TestConstVC"}, @{@"title":@"wk和js交互",@"className":@"WkJsVC"},
-                    @{@"title":@"修改appIcon-Method Swizzling",@"className":@"ChangeAppIconVC"},nil];
+        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"对const的理解",@"className":@"TestConstVC"}, @{@"title":@"wk和js交互",@"className":@"WkJsVC"},
+                    @{@"title":@"程序内修改appIcon+Method Swizzling使用",@"className":@"ChangeAppIconVC"},nil];
     }
     return _itemArr;
 }
