@@ -25,6 +25,8 @@
 		54738FE4213CC65F00061DDB /* icon20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54738FDC213CC65F00061DDB /* icon20@2x.png */; };
 		54738FE5213CC65F00061DDB /* icon20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54738FDD213CC65F00061DDB /* icon20@3x.png */; };
 		54738FE7213CC9FB00061DDB /* README in Resources */ = {isa = PBXBuildFile; fileRef = 54738FE6213CC9FB00061DDB /* README */; };
+		54738FEB213D2D8400061DDB /* CopyAndMutableCopyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54738FEA213D2D8400061DDB /* CopyAndMutableCopyVC.m */; };
+		54738FEF213D2EC700061DDB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54738FEE213D2EC700061DDB /* BaseViewController.m */; };
 		54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6747213BAD6000E73D06 /* FactoryVC.m */; };
 		54AB674C213BAEEE00E73D06 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674B213BAEEE00E73D06 /* Factory.m */; };
 		54AB674F213BAF5E00E73D06 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674E213BAF5E00E73D06 /* Food.m */; };
@@ -81,6 +83,10 @@
 		54738FDC213CC65F00061DDB /* icon20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@2x.png"; sourceTree = "<group>"; };
 		54738FDD213CC65F00061DDB /* icon20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@3x.png"; sourceTree = "<group>"; };
 		54738FE6213CC9FB00061DDB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		54738FE9213D2D8400061DDB /* CopyAndMutableCopyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopyVC.h; sourceTree = "<group>"; };
+		54738FEA213D2D8400061DDB /* CopyAndMutableCopyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyAndMutableCopyVC.m; sourceTree = "<group>"; };
+		54738FED213D2EC700061DDB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		54738FEE213D2EC700061DDB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		54AB6747213BAD6000E73D06 /* FactoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryVC.m; sourceTree = "<group>"; };
 		54AB6748213BAD6000E73D06 /* FactoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryVC.h; sourceTree = "<group>"; };
 		54AB674A213BAEEE00E73D06 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -205,6 +211,24 @@
 			path = dyIcon;
 			sourceTree = "<group>";
 		};
+		54738FE8213D2D5300061DDB /* CopyAndMutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				54738FE9213D2D8400061DDB /* CopyAndMutableCopyVC.h */,
+				54738FEA213D2D8400061DDB /* CopyAndMutableCopyVC.m */,
+			);
+			path = CopyAndMutableCopy;
+			sourceTree = "<group>";
+		};
+		54738FEC213D2EB400061DDB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54738FED213D2EC700061DDB /* BaseViewController.h */,
+				54738FEE213D2EC700061DDB /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		54AB6746213BAD6000E73D06 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +280,8 @@
 		54E28D0321384D1500DB4B41 /* OCProject */ = {
 			isa = PBXGroup;
 			children = (
+				54738FEC213D2EB400061DDB /* Base */,
+				54738FE8213D2D5300061DDB /* CopyAndMutableCopy */,
 				54738FE6213CC9FB00061DDB /* README */,
 				54738FC1213CC4F100061DDB /* ChangeAppIcon */,
 				54738FC6213CC4F100061DDB /* WkJs */,
@@ -467,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5414FC94213C209C0098D711 /* TestConstVC.m in Sources */,
+				54738FEF213D2EC700061DDB /* BaseViewController.m in Sources */,
 				54AB674C213BAEEE00E73D06 /* Factory.m in Sources */,
 				54E28D1421384D1600DB4B41 /* main.m in Sources */,
 				54AB6759213BB2F500E73D06 /* UIUtil.m in Sources */,
@@ -479,6 +506,7 @@
 				54738FCA213CC4F100061DDB /* UIViewController+HideAlert.m in Sources */,
 				54AB674F213BAF5E00E73D06 /* Food.m in Sources */,
 				54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */,
+				54738FEB213D2D8400061DDB /* CopyAndMutableCopyVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
