@@ -24,6 +24,7 @@
 		54738FE3213CC65F00061DDB /* icon40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54738FDB213CC65F00061DDB /* icon40@2x.png */; };
 		54738FE4213CC65F00061DDB /* icon20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54738FDC213CC65F00061DDB /* icon20@2x.png */; };
 		54738FE5213CC65F00061DDB /* icon20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54738FDD213CC65F00061DDB /* icon20@3x.png */; };
+		54738FE7213CC9FB00061DDB /* README in Resources */ = {isa = PBXBuildFile; fileRef = 54738FE6213CC9FB00061DDB /* README */; };
 		54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6747213BAD6000E73D06 /* FactoryVC.m */; };
 		54AB674C213BAEEE00E73D06 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674B213BAEEE00E73D06 /* Factory.m */; };
 		54AB674F213BAF5E00E73D06 /* BaseBreakfast.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674E213BAF5E00E73D06 /* BaseBreakfast.m */; };
@@ -79,6 +80,7 @@
 		54738FDB213CC65F00061DDB /* icon40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon40@2x.png"; sourceTree = "<group>"; };
 		54738FDC213CC65F00061DDB /* icon20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@2x.png"; sourceTree = "<group>"; };
 		54738FDD213CC65F00061DDB /* icon20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@3x.png"; sourceTree = "<group>"; };
+		54738FE6213CC9FB00061DDB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		54AB6747213BAD6000E73D06 /* FactoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryVC.m; sourceTree = "<group>"; };
 		54AB6748213BAD6000E73D06 /* FactoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryVC.h; sourceTree = "<group>"; };
 		54AB674A213BAEEE00E73D06 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -203,7 +205,7 @@
 			path = dyIcon;
 			sourceTree = "<group>";
 		};
-		54AB6746213BAD6000E73D06 /* factory */ = {
+		54AB6746213BAD6000E73D06 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
 				54AB6747213BAD6000E73D06 /* FactoryVC.m */,
@@ -217,7 +219,7 @@
 				54AB6753213BAF9000E73D06 /* YoutiaoBreakfast.h */,
 				54AB6754213BAF9000E73D06 /* YoutiaoBreakfast.m */,
 			);
-			path = factory;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		54AB6756213BB2DD00E73D06 /* Utils */ = {
@@ -254,11 +256,12 @@
 		54E28D0321384D1500DB4B41 /* OCProject */ = {
 			isa = PBXGroup;
 			children = (
+				54738FE6213CC9FB00061DDB /* README */,
 				54738FC1213CC4F100061DDB /* ChangeAppIcon */,
 				54738FC6213CC4F100061DDB /* WkJs */,
 				5414FC91213C20880098D711 /* TestConstVC */,
 				54AB6756213BB2DD00E73D06 /* Utils */,
-				54AB6746213BAD6000E73D06 /* factory */,
+				54AB6746213BAD6000E73D06 /* Factory */,
 				54E28D0421384D1500DB4B41 /* AppDelegate.h */,
 				54E28D0521384D1500DB4B41 /* AppDelegate.m */,
 				54E28D0A21384D1500DB4B41 /* Main.storyboard */,
@@ -406,6 +409,7 @@
 				54738FE2213CC65F00061DDB /* icon40@3x.png in Resources */,
 				54E28D1121384D1600DB4B41 /* LaunchScreen.storyboard in Resources */,
 				54738FE4213CC65F00061DDB /* icon20@2x.png in Resources */,
+				54738FE7213CC9FB00061DDB /* README in Resources */,
 				54738FDE213CC65F00061DDB /* icon60@2x.png in Resources */,
 				54738FDF213CC65F00061DDB /* icon29@3x.png in Resources */,
 				54738FE1213CC65F00061DDB /* icon60@3x.png in Resources */,
