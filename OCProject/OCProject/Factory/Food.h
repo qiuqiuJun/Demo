@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BaseBreakfast : NSObject
+@interface Food : NSObject
 - (NSString *)productName;
 @end

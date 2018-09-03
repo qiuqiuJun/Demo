@@ -11,8 +11,8 @@
 #import "YoutiaoBreakfast.h"
 
 @implementation Factory
-+ (BaseBreakfast *)creatBreakfast:(BreakfastType)type{
-    BaseBreakfast *breakfast;
++ (Food *)creatBreakfast:(BreakfastType)type{
+    Food *breakfast;
     switch (type) {
         case BreakfastType_mantou:
         {

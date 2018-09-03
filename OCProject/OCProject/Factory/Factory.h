@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseBreakfast.h"
+#import "Food.h"
 typedef NS_ENUM(NSInteger,BreakfastType){
     BreakfastType_mantou,
     BreakfastType_youtiao
 };
 @interface Factory : NSObject
-+ (BaseBreakfast *)creatBreakfast:(BreakfastType)type;
++ (Food *)creatBreakfast:(BreakfastType)type;
 @end

@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseBreakfast.h"
+#import "Food.h"
 
-@interface YoutiaoBreakfast : BaseBreakfast
+@interface YoutiaoBreakfast : Food
 
 @end

@@ -27,7 +27,7 @@
 		54738FE7213CC9FB00061DDB /* README in Resources */ = {isa = PBXBuildFile; fileRef = 54738FE6213CC9FB00061DDB /* README */; };
 		54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6747213BAD6000E73D06 /* FactoryVC.m */; };
 		54AB674C213BAEEE00E73D06 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674B213BAEEE00E73D06 /* Factory.m */; };
-		54AB674F213BAF5E00E73D06 /* BaseBreakfast.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674E213BAF5E00E73D06 /* BaseBreakfast.m */; };
+		54AB674F213BAF5E00E73D06 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB674E213BAF5E00E73D06 /* Food.m */; };
 		54AB6752213BAF7600E73D06 /* MantouBreakfast.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6751213BAF7600E73D06 /* MantouBreakfast.m */; };
 		54AB6755213BAF9000E73D06 /* YoutiaoBreakfast.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6754213BAF9000E73D06 /* YoutiaoBreakfast.m */; };
 		54AB6759213BB2F500E73D06 /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AB6758213BB2F500E73D06 /* UIUtil.m */; };
@@ -85,8 +85,8 @@
 		54AB6748213BAD6000E73D06 /* FactoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryVC.h; sourceTree = "<group>"; };
 		54AB674A213BAEEE00E73D06 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		54AB674B213BAEEE00E73D06 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
-		54AB674D213BAF5E00E73D06 /* BaseBreakfast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseBreakfast.h; sourceTree = "<group>"; };
-		54AB674E213BAF5E00E73D06 /* BaseBreakfast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseBreakfast.m; sourceTree = "<group>"; };
+		54AB674D213BAF5E00E73D06 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		54AB674E213BAF5E00E73D06 /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		54AB6750213BAF7600E73D06 /* MantouBreakfast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MantouBreakfast.h; sourceTree = "<group>"; };
 		54AB6751213BAF7600E73D06 /* MantouBreakfast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantouBreakfast.m; sourceTree = "<group>"; };
 		54AB6753213BAF9000E73D06 /* YoutiaoBreakfast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoutiaoBreakfast.h; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 				54AB6748213BAD6000E73D06 /* FactoryVC.h */,
 				54AB674A213BAEEE00E73D06 /* Factory.h */,
 				54AB674B213BAEEE00E73D06 /* Factory.m */,
-				54AB674D213BAF5E00E73D06 /* BaseBreakfast.h */,
-				54AB674E213BAF5E00E73D06 /* BaseBreakfast.m */,
+				54AB674D213BAF5E00E73D06 /* Food.h */,
+				54AB674E213BAF5E00E73D06 /* Food.m */,
 				54AB6750213BAF7600E73D06 /* MantouBreakfast.h */,
 				54AB6751213BAF7600E73D06 /* MantouBreakfast.m */,
 				54AB6753213BAF9000E73D06 /* YoutiaoBreakfast.h */,
@@ -477,7 +477,7 @@
 				54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */,
 				54D0C25D213AADC400D4B3E6 /* MyTableViewController.m in Sources */,
 				54738FCA213CC4F100061DDB /* UIViewController+HideAlert.m in Sources */,
-				54AB674F213BAF5E00E73D06 /* BaseBreakfast.m in Sources */,
+				54AB674F213BAF5E00E73D06 /* Food.m in Sources */,
 				54AB6749213BAD6000E73D06 /* FactoryVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
