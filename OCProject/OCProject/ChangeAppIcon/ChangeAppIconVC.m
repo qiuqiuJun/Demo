@@ -47,17 +47,27 @@
     }
 }
 - (void)changeAppIconWithName:(NSString *)iconName {
-    if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
-        return;
-    }
-    if ([iconName isEqualToString:@""]) {
-        iconName = nil;
-    }
-    [[UIApplication sharedApplication] setAlternateIconName:iconName completionHandler:^(NSError * _Nullable error) {
-        if (error) {
-            NSLog(@"更换app图标发生错误了 ： %@",error);
+    if (@available(iOS 10.3, *)) {
+        if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
+            return;
         }
-    }];
+        if ([iconName isEqualToString:@""]) {
+            iconName = nil;
+        }
+        [[UIApplication sharedApplication] setAlternateIconName:iconName completionHandler:^(NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"更换app图标发生错误了 ： %@",error);
+            }
+        }];
+    } else {
+        UIAlertController *myAlertCon = [UIAlertController alertControllerWithTitle:@"提示" message:@"支持10.3以及以上版本" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+        [myAlertCon addAction:okAction];
+        [self presentViewController:myAlertCon animated:YES completion:nil];
+    }
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
