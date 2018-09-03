@@ -7,7 +7,7 @@
 //
 
 #import "FactoryVC.h"
-#import "BaseBreakfast.h"
+#import "Food.h"
 #import "UIUtil.h"
 #import "Masonry.h"
 #import "Factory.h"
@@ -54,7 +54,7 @@
             type = BreakfastType_mantou;
             break;
     }
-    BaseBreakfast *brakfast = [Factory creatBreakfast:type];
+    Food *brakfast = [Factory creatBreakfast:type];
     NSLog(@"%@",[brakfast productName]);
     
     UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"哈哈" message:[brakfast productName] preferredStyle:UIAlertControllerStyleAlert];

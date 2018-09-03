@@ -1,5 +1,5 @@
 //
-//  BaseBreakfast.h
+//  YoutiaoBreakfast.h
 //  OCProject
 //
 //  Created by wqq on 2018/9/2.
@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Food.h"
 
-@interface BaseBreakfast : NSObject
-- (NSString *)productName;
+@interface YoutiaoBreakfast : Food
+
 @end

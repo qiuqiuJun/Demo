@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseBreakfast.h"
-@interface MantouBreakfast : BaseBreakfast
+#import "Food.h"
+@interface MantouBreakfast : Food
 
 @end

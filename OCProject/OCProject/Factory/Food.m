@@ -6,9 +6,9 @@
 //  Copyright © 2018年 wqq. All rights reserved.
 //
 
-#import "BaseBreakfast.h"
+#import "Food.h"
 
-@implementation BaseBreakfast
+@implementation Food
 - (NSString *)productName{
     return @"我是早餐";
 }
