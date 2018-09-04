@@ -39,6 +39,12 @@
 		54D0C25D213AADC400D4B3E6 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0C25C213AADC400D4B3E6 /* MyTableViewController.m */; };
 		54D27225213E739C0085B92D /* YYDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D27224213E739C0085B92D /* YYDemoHelper.m */; };
 		54D27227213E75B10085B92D /* ResourceWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54D27226213E75B10085B92D /* ResourceWeibo.bundle */; };
+		54D2722B213E8BB30085B92D /* YYImageTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2722A213E8BB30085B92D /* YYImageTestVC.m */; };
+		54D2722F213E90670085B92D /* wall-e@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 54D2722C213E90670085B92D /* wall-e@2x.webp */; };
+		54D27230213E90670085B92D /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D2722D213E90670085B92D /* pia@2x.png */; };
+		54D27231213E90670085B92D /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54D2722E213E90670085B92D /* niconiconi@2x.gif */; };
+		54D27234213EB04B0085B92D /* YYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D27233213EB04B0085B92D /* YYTableView.m */; };
+		54D27237213EB21B0085B92D /* YYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D27236213EB21B0085B92D /* YYTableViewCell.m */; };
 		54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D0521384D1500DB4B41 /* AppDelegate.m */; };
 		54E28D0C21384D1500DB4B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0A21384D1500DB4B41 /* Main.storyboard */; };
 		54E28D0E21384D1600DB4B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0D21384D1600DB4B41 /* Assets.xcassets */; };
@@ -115,6 +121,15 @@
 		54D27223213E739C0085B92D /* YYDemoHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDemoHelper.h; sourceTree = "<group>"; };
 		54D27224213E739C0085B92D /* YYDemoHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDemoHelper.m; sourceTree = "<group>"; };
 		54D27226213E75B10085B92D /* ResourceWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResourceWeibo.bundle; sourceTree = "<group>"; };
+		54D27229213E8BB30085B92D /* YYImageTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageTestVC.h; sourceTree = "<group>"; };
+		54D2722A213E8BB30085B92D /* YYImageTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageTestVC.m; sourceTree = "<group>"; };
+		54D2722C213E90670085B92D /* wall-e@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wall-e@2x.webp"; sourceTree = "<group>"; };
+		54D2722D213E90670085B92D /* pia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pia@2x.png"; sourceTree = "<group>"; };
+		54D2722E213E90670085B92D /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
+		54D27232213EB04B0085B92D /* YYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableView.h; sourceTree = "<group>"; };
+		54D27233213EB04B0085B92D /* YYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableView.m; sourceTree = "<group>"; };
+		54D27235213EB21B0085B92D /* YYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewCell.h; sourceTree = "<group>"; };
+		54D27236213EB21B0085B92D /* YYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewCell.m; sourceTree = "<group>"; };
 		54E28D0121384D1500DB4B41 /* OCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E28D0421384D1500DB4B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54E28D0521384D1500DB4B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -240,6 +255,10 @@
 		54738FEC213D2EB400061DDB /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				54D27235213EB21B0085B92D /* YYTableViewCell.h */,
+				54D27236213EB21B0085B92D /* YYTableViewCell.m */,
+				54D27232213EB04B0085B92D /* YYTableView.h */,
+				54D27233213EB04B0085B92D /* YYTableView.m */,
 				54738FED213D2EC700061DDB /* BaseViewController.h */,
 				54738FEE213D2EC700061DDB /* BaseViewController.m */,
 			);
@@ -249,6 +268,9 @@
 		54738FF7213E3A4100061DDB /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				54D2722E213E90670085B92D /* niconiconi@2x.gif */,
+				54D2722D213E90670085B92D /* pia@2x.png */,
+				54D2722C213E90670085B92D /* wall-e@2x.webp */,
 				54D27226213E75B10085B92D /* ResourceWeibo.bundle */,
 			);
 			path = resource;
@@ -278,6 +300,15 @@
 				54AB6758213BB2F500E73D06 /* UIUtil.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		54D27228213E8B960085B92D /* YYImageDisplayVC */ = {
+			isa = PBXGroup;
+			children = (
+				54D27229213E8BB30085B92D /* YYImageTestVC.h */,
+				54D2722A213E8BB30085B92D /* YYImageTestVC.m */,
+			);
+			path = YYImageDisplayVC;
 			sourceTree = "<group>";
 		};
 		54E28CF821384D1500DB4B41 = {
@@ -348,6 +379,7 @@
 		54E36E6E213D80EB00189E6A /* TestYYKitVC */ = {
 			isa = PBXGroup;
 			children = (
+				54D27228213E8B960085B92D /* YYImageDisplayVC */,
 				54738FF7213E3A4100061DDB /* resource */,
 				54E36E75213D85B300189E6A /* ItemLayout.h */,
 				54738FF2213E246700061DDB /* ItemLayout.m */,
@@ -475,9 +507,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D27230213E90670085B92D /* pia@2x.png in Resources */,
 				54738FE3213CC65F00061DDB /* icon40@2x.png in Resources */,
 				54738FE2213CC65F00061DDB /* icon40@3x.png in Resources */,
 				54E28D1121384D1600DB4B41 /* LaunchScreen.storyboard in Resources */,
+				54D27231213E90670085B92D /* niconiconi@2x.gif in Resources */,
 				54738FE4213CC65F00061DDB /* icon20@2x.png in Resources */,
 				54D27227213E75B10085B92D /* ResourceWeibo.bundle in Resources */,
 				54738FE7213CC9FB00061DDB /* README in Resources */,
@@ -491,6 +525,7 @@
 				54738FD4213CC64000061DDB /* jquery.js in Resources */,
 				54738FE0213CC65F00061DDB /* icon29@2x.png in Resources */,
 				54738FE5213CC65F00061DDB /* icon20@3x.png in Resources */,
+				54D2722F213E90670085B92D /* wall-e@2x.webp in Resources */,
 				54738FD2213CC64000061DDB /* common.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,8 +576,11 @@
 				54738FEF213D2EC700061DDB /* BaseViewController.m in Sources */,
 				54739002213E619300061DDB /* ProfileView.m in Sources */,
 				54AB674C213BAEEE00E73D06 /* Factory.m in Sources */,
+				54D27237213EB21B0085B92D /* YYTableViewCell.m in Sources */,
 				54D27225213E739C0085B92D /* YYDemoHelper.m in Sources */,
+				54D27234213EB04B0085B92D /* YYTableView.m in Sources */,
 				54738FF3213E246700061DDB /* ItemLayout.m in Sources */,
+				54D2722B213E8BB30085B92D /* YYImageTestVC.m in Sources */,
 				54E28D1421384D1600DB4B41 /* main.m in Sources */,
 				54AB6759213BB2F500E73D06 /* UIUtil.m in Sources */,
 				54AB6755213BAF9000E73D06 /* YoutiaoBreakfast.m in Sources */,
