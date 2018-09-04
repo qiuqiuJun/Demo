@@ -46,14 +46,17 @@
     containner.maximumNumberOfRows = 1;
     _nameTextLayout = [YYTextLayout layoutWithContainer:containner text:nameAtt];
     
-    
+//    NSLog(@"_nameTextLayout-textBoundingSize.height==%f",_nameTextLayout.textBoundingSize.height);
+//    NSLog(@"frame==%@",NSStringFromCGRect(_nameTextLayout.textBoundingRect));
+
     NSMutableAttributedString *signttr = [[NSMutableAttributedString alloc] initWithString:_dataModel.sign];
     signttr.font = [UIFont systemFontOfSize:15];
     signttr.color = [UIColor blackColor];
     YYTextContainer *signContainer = [YYTextContainer containerWithSize:CGSizeMake((kScreenWidth - 110), CGFLOAT_MAX)];
     signContainer.maximumNumberOfRows = 1;
     _signLayout = [YYTextLayout layoutWithContainer:signContainer text:signttr];
-    
+//    NSLog(@"_signLayout-textBoundingSize.height==%f",_signLayout.textBoundingSize.height);
+//    NSLog(@"frame2==%@",NSStringFromCGRect(_signLayout.textBoundingRect));
     _profileHeight = kWBCellProfileHeight;
     
     _cellHeight = kWBCellProfileHeight + kTopMargin + kBottomMargin;
