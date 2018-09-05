@@ -15,6 +15,7 @@
 #import "YYDemoHelper.h"
 #import "YYTableView.h"
 #import "YYTableViewCell.h"
+#import "Masonry.h"
 @interface TestYYkitVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (strong, nonatomic) NSMutableArray *dataArr;
 @property (strong, nonatomic) UITableView *tableView;
@@ -25,12 +26,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.tableView = [YYTableView new];
+    self.tableView = [UITableView new];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.tableView.frame = self.view.bounds;
-    [self.tableView registerClass:[YYTableViewCell class] forCellReuseIdentifier:NSStringFromClass([YYTableViewCell class])];
+//    self.tableView.frame = self.view.frame;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     [self.view addSubview:self.tableView];
+    __weak typeof(self) weakSelf = self;
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.bottom.equalTo(weakSelf.view);
+    }];
     
     self.dataArr = @[].mutableCopy;
     NSArray *nameArr = @[@"张三",@"王大拿",@"王小贱",@"逗你玩",@"绿豆蛙",@"大嘴巴",@"小蛮腰",@"抠脚汉",@"后来",@"天亮以后"];
@@ -52,7 +57,7 @@
             NSString *textContent;
             NSString *verifyType;
             if (i % 2 == 0) {
-                textContent = @"sahdhfaks 的创建按说积分按说的风格水倒入发额发";
+                textContent = @"sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发sahdhfaks 的创建按说积分按说的风格水倒入发额发";
                 verifyType = @"0";
             }else{
                 textContent = @"萨合 阿设法啊思维方式 安慰发网上";
@@ -96,7 +101,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    YYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([YYTableViewCell class]) forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
     ItemLayout *model = (ItemLayout *)[self.dataArr objectAtIndex:indexPath.row];
     ProfileView *profile = (ProfileView *)[cell viewWithTag:50];
     if (!profile) {
@@ -115,9 +120,9 @@
     YYLabel *label = (YYLabel *)[cell viewWithTag:100];
     if (!label) {
         YYLabel *label = [[YYLabel alloc] init];
-        label.displaysAsynchronously = YES;//开启异步渲染
-        label.ignoreCommonProperties = YES;
-        label.fadeOnAsynchronouslyDisplay = NO;
+//        label.displaysAsynchronously = YES;//开启异步渲染
+//        label.ignoreCommonProperties = YES;
+//        label.fadeOnAsynchronouslyDisplay = NO;
         label.fadeOnHighlight = NO;
         label.layer.borderColor = [UIColor brownColor].CGColor;
         label.layer.cornerRadius = 5.0;
@@ -126,8 +131,9 @@
         [cell addSubview:label];
     }
     if (model) {
-        label.textLayout = model.textLayout;
         label.frame = model.texFrame;
+        label.textLayout = model.textLayout;
+
     }
     return cell;
 }

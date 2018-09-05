@@ -59,7 +59,7 @@
 //    NSLog(@"frame2==%@",NSStringFromCGRect(_signLayout.textBoundingRect));
     _profileHeight = kWBCellProfileHeight;
     
-    _cellHeight = kWBCellProfileHeight + kTopMargin + kBottomMargin;
+//    _cellHeight = kWBCellProfileHeight + kTopMargin + kBottomMargin;
 
 }
 - (void)layoutText{
@@ -70,9 +70,9 @@
     YYTextContainer *container = [YYTextContainer containerWithSize:CGSizeMake(kMaxLayout, CGFLOAT_MAX)];
     _textLayout = [YYTextLayout layoutWithContainer:container text:muattr];
     CGSize textSize = _textLayout.textBoundingSize;
-    _texFrame = CGRectMake(kLeftMargin, kWBCellProfileHeight + kTopMargin, kMaxLayout, textSize.height + kBottomMargin);
+    _texFrame = CGRectMake(kLeftMargin, kWBCellProfileHeight + kTopMargin, kMaxLayout, textSize.height);
     //
-    _cellHeight += textSize.height + kBottomMargin;
+    _cellHeight  = kTopMargin + kBottomMargin + textSize.height + _profileHeight + kTopMargin;
 }
 
 

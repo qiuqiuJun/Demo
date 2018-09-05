@@ -29,8 +29,8 @@
 #pragma -mark -lazy
 - (NSMutableArray *)itemArr{
     if (nil ==  _itemArr) {
-        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"对const的理解",@"className":@"TestConstVC"}, @{@"title":@"wk和js交互",@"className":@"WkJsVC"},
-                    @{@"title":@"程序内修改appIcon+Method Swizzling使用",@"className":@"ChangeAppIconVC"},@{@"title":@"深浅copy",@"className":@"CopyAndMutableCopyVC"},@{@"title":@"YYlabel异步渲染",@"className":@"TestYYkitVC"},@{@"title":@"YYImage",@"className":@"YYImageTestVC"},@{@"title":@"GCD",@"className":@"GCDController",@"storyboardId":@"GCDController"},nil];
+        _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"对const的理解",@"className":@"TestConstVC",@"storyboardId":@"TestConstVC"}, @{@"title":@"wk和js交互",@"className":@"WkJsVC"},
+                    @{@"title":@"程序内修改appIcon+Method Swizzling使用",@"className":@"ChangeAppIconVC"},@{@"title":@"深浅copy",@"className":@"CopyAndMutableCopyVC",@"storyboardId":@"CopyAndMutableCopyVC"},@{@"title":@"YYlabel",@"className":@"TestYYkitVC"},@{@"title":@"YYImage",@"className":@"YYImageTestVC"},@{@"title":@"GCD",@"className":@"GCDController",@"storyboardId":@"GCDController"},nil];
     }
     return _itemArr;
 }
