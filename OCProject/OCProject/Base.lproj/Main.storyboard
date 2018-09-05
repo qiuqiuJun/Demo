@@ -108,6 +108,14 @@
                                     <action selector="dispatchSemaphore:" destination="4xp-tz-whV" eventType="touchUpInside" id="7pW-1d-afa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuZ-Vs-m3V">
+                                <rect key="frame" x="98" y="536" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="dispatchSemaphore2"/>
+                                <connections>
+                                    <action selector="dispatchSemaphore2:" destination="4xp-tz-whV" eventType="touchUpInside" id="ecy-gh-dy8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>

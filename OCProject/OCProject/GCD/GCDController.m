@@ -260,5 +260,38 @@
         });
     }
 }
+//创建了两个任务信号，多余的任务需要等待信号释放才能执行
+- (IBAction)dispatchSemaphore2:(id)sender{
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(2);
+    dispatch_async([self gloableQueue], ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"task-1");
+        sleep(2);
+        NSLog(@"task-1-finish");
+        dispatch_semaphore_signal(semaphore);
+    });
+    dispatch_async([self gloableQueue], ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"task-2");
+        sleep(2);
+        NSLog(@"task-2-finish");
+        dispatch_semaphore_signal(semaphore);
+    });
+    dispatch_async([self gloableQueue], ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"task-3");
+        sleep(2);
+        NSLog(@"task-3-finish");
+        dispatch_semaphore_signal(semaphore);
+    });
+}
+/*
+ 2018-09-05 18:47:41.270014+0800 OCProject[1148:4748195] task-1
+ 2018-09-05 18:47:41.270089+0800 OCProject[1148:4748209] task-3
+ 2018-09-05 18:47:43.273053+0800 OCProject[1148:4748209] task-3-finish
+ 2018-09-05 18:47:43.273053+0800 OCProject[1148:4748195] task-1-finish
+ 2018-09-05 18:47:43.273330+0800 OCProject[1148:4748510] task-2
+ 2018-09-05 18:47:45.278272+0800 OCProject[1148:4748510] task-2-finish
 
+ */
 @end
