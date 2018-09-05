@@ -30,7 +30,7 @@
 - (NSMutableArray *)itemArr{
     if (nil ==  _itemArr) {
         _itemArr = [[NSMutableArray alloc] initWithObjects:@{@"title":@"工厂模式",@"className":@"FactoryVC"},@{@"title":@"对const的理解",@"className":@"TestConstVC"}, @{@"title":@"wk和js交互",@"className":@"WkJsVC"},
-                    @{@"title":@"程序内修改appIcon+Method Swizzling使用",@"className":@"ChangeAppIconVC"},@{@"title":@"深浅copy",@"className":@"CopyAndMutableCopyVC"},@{@"title":@"YYlabel异步渲染",@"className":@"TestYYkitVC"},@{@"title":@"YYImage",@"className":@"YYImageTestVC"},nil];
+                    @{@"title":@"程序内修改appIcon+Method Swizzling使用",@"className":@"ChangeAppIconVC"},@{@"title":@"深浅copy",@"className":@"CopyAndMutableCopyVC"},@{@"title":@"YYlabel异步渲染",@"className":@"TestYYkitVC"},@{@"title":@"YYImage",@"className":@"YYImageTestVC"},@{@"title":@"GCD",@"className":@"GCDController",@"storyboardId":@"GCDController"},nil];
     }
     return _itemArr;
 }
@@ -61,7 +61,12 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSDictionary *dic = (NSDictionary *)[self.itemArr objectAtIndex:indexPath.row];
     NSString *className = dic[@"className"];
-    UIViewController *con = [(UIViewController *)[NSClassFromString(className) alloc] init];
+    UIViewController *con;
+    if ([[dic allKeys] containsObject:@"storyboardId"]) {
+        con = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:dic[@"storyboardId"]];
+    }else{
+        con= [(UIViewController *)[NSClassFromString(className) alloc] init];
+    }
     [self.navigationController pushViewController:con animated:YES];
 }
 

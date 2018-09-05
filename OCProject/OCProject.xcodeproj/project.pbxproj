@@ -45,6 +45,7 @@
 		54D27231213E90670085B92D /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54D2722E213E90670085B92D /* niconiconi@2x.gif */; };
 		54D27234213EB04B0085B92D /* YYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D27233213EB04B0085B92D /* YYTableView.m */; };
 		54D27237213EB21B0085B92D /* YYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D27236213EB21B0085B92D /* YYTableViewCell.m */; };
+		54D2723B213F6E2B0085B92D /* GCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2723A213F6E2B0085B92D /* GCDController.m */; };
 		54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D0521384D1500DB4B41 /* AppDelegate.m */; };
 		54E28D0C21384D1500DB4B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0A21384D1500DB4B41 /* Main.storyboard */; };
 		54E28D0E21384D1600DB4B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0D21384D1600DB4B41 /* Assets.xcassets */; };
@@ -130,6 +131,8 @@
 		54D27233213EB04B0085B92D /* YYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableView.m; sourceTree = "<group>"; };
 		54D27235213EB21B0085B92D /* YYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewCell.h; sourceTree = "<group>"; };
 		54D27236213EB21B0085B92D /* YYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewCell.m; sourceTree = "<group>"; };
+		54D27239213F6E2B0085B92D /* GCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDController.h; sourceTree = "<group>"; };
+		54D2723A213F6E2B0085B92D /* GCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDController.m; sourceTree = "<group>"; };
 		54E28D0121384D1500DB4B41 /* OCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E28D0421384D1500DB4B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54E28D0521384D1500DB4B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -311,6 +314,16 @@
 			path = YYImageDisplayVC;
 			sourceTree = "<group>";
 		};
+		54D27238213F6E070085B92D /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				54D27239213F6E2B0085B92D /* GCDController.h */,
+				54D2723A213F6E2B0085B92D /* GCDController.m */,
+			);
+			name = GCD;
+			path = OCProject/GCD;
+			sourceTree = SOURCE_ROOT;
+		};
 		54E28CF821384D1500DB4B41 = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +392,7 @@
 		54E36E6E213D80EB00189E6A /* TestYYKitVC */ = {
 			isa = PBXGroup;
 			children = (
+				54D27238213F6E070085B92D /* GCD */,
 				54D27228213E8B960085B92D /* YYImageDisplayVC */,
 				54738FF7213E3A4100061DDB /* resource */,
 				54E36E75213D85B300189E6A /* ItemLayout.h */,
@@ -576,6 +590,7 @@
 				54738FEF213D2EC700061DDB /* BaseViewController.m in Sources */,
 				54739002213E619300061DDB /* ProfileView.m in Sources */,
 				54AB674C213BAEEE00E73D06 /* Factory.m in Sources */,
+				54D2723B213F6E2B0085B92D /* GCDController.m in Sources */,
 				54D27237213EB21B0085B92D /* YYTableViewCell.m in Sources */,
 				54D27225213E739C0085B92D /* YYDemoHelper.m in Sources */,
 				54D27234213EB04B0085B92D /* YYTableView.m in Sources */,
