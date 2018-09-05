@@ -16,7 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-
+//https://blog.ibireme.com/
 //SerialDispatchQueueTest-等待结果按照顺序执行
 - (IBAction)serialDispatchQueueTest:(id)sender{
     //创建一个SerialDispatchQueue，主要是用于防止资源的竞争，一个线程处使用完资源，然后另外一个才能继续使用
