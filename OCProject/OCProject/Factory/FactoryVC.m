@@ -12,7 +12,6 @@
 #import "Masonry.h"
 #import "Factory.h"
 @interface FactoryVC ()
-
 @end
 
 @implementation FactoryVC

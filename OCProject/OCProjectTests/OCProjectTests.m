@@ -7,7 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "YYKit.h"
+#import "CustomModel.h"
 @interface OCProjectTests : XCTestCase
 
 @end
@@ -25,8 +26,14 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    CustomModel *model = [[CustomModel alloc] init];
+//    model.name= @"张三";
+//    model.age = @"30";
+//    model.address = @"深圳南山";
+    
+    NSDictionary *modelDic = @{@"name":@"张三",@"age":@"20",@"address":@"深圳南山"};
+    CustomModel *jsonModel = [CustomModel modelWithJSON:modelDic];
+    
 }
 
 - (void)testPerformanceExample {

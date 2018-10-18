@@ -7,6 +7,7 @@
 //
 
 #import "GCDController.h"
+#import "Masonry.h"
 
 @interface GCDController ()
 @end
@@ -15,6 +16,123 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.backgroundColor = [UIColor yellowColor];
+//    btn.layer.cornerRadius = 10;
+    [btn setTitle:@"123" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(klkll) forControlEvents:UIControlEventTouchUpInside];
+    //    btn.layer.masksToBounds  = YES;
+    [self.view addSubview:btn];
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view);
+        make.centerY.equalTo(self.view);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(40);
+    }];
+//    NSLog(@"123");
+////    [self test1];
+//    [self test5];
+//    NSLog(@"456");
+
+}
+- (void)klkll{
+    NSLog(@"121212");
+}
+
+- (void)test5{
+    dispatch_queue_t q = dispatch_get_global_queue(0, 0);
+    
+    for (int i = 0; i < 10; i++) {
+        dispatch_async(q, ^{
+            NSLog(@"%@ %d", [NSThread currentThread], i);
+        });
+    }
+//    dispatch_async(q, ^{
+//        NSLog(@"%@", [NSThread currentThread]);
+//    });
+    [NSThread sleepForTimeInterval:5.0];
+    NSLog(@"com here");
+}
+- (void)test4{
+    dispatch_queue_t q = dispatch_queue_create("dantesx", DISPATCH_QUEUE_CONCURRENT);
+    void (^task)(void) = ^ {
+        // 1. 用户登录，必须要第一个执行
+        dispatch_sync(q, ^{
+            NSLog(@"用户登录 %@", [NSThread currentThread]);
+        });
+
+        // 2. 扣费
+        dispatch_async(q, ^{
+            NSLog(@"扣费 %@", [NSThread currentThread]);
+        });
+        // 3. 下载
+        dispatch_async(q, ^{
+            
+            NSLog(@"下载 %@", [NSThread currentThread]);
+        });
+        [NSThread sleepForTimeInterval:5.0];
+        NSLog(@"dsjdsjdk");
+    };
+    
+    dispatch_async(q, task);
+    [NSThread sleepForTimeInterval:1.0];
+    NSLog(@"董铂然 come here");
+}
+- (void)test3{
+    dispatch_queue_t q = dispatch_get_global_queue(0, 0);
+    dispatch_sync(q, ^{
+        [NSThread sleepForTimeInterval:2.0];
+        NSLog(@"用户登录 %@", [NSThread currentThread]);
+    });
+    // 2. 扣费
+    dispatch_async(q, ^{
+        NSLog(@"扣费 %@", [NSThread currentThread]);
+    });
+    // 3. 下载
+    dispatch_async(q, ^{
+        NSLog(@"下载 %@", [NSThread currentThread]);
+    });
+    NSLog(@"董铂然 come here");
+}
+- (void)test2{
+    dispatch_queue_t queue = dispatch_queue_create("dsdsds", NULL);
+    //    dispatch_queue_t mainQueue = dispatch_get_main_queue();
+    dispatch_async(queue, ^{
+        NSLog(@"1-1");
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"1-2");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-3");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-4");
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"1-5");
+    });
+}
+- (void)test1{
+    dispatch_queue_t queue = dispatch_queue_create("dsdsds", NULL);
+    //    dispatch_queue_t mainQueue = dispatch_get_main_queue();
+    dispatch_sync(queue, ^{
+        NSLog(@"1-1");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-2");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-3");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-4");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"1-5");
+    });
 }
 //https://blog.ibireme.com/
 //SerialDispatchQueueTest-等待结果按照顺序执行

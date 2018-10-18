@@ -1466,7 +1466,8 @@ static NSString *ModelDescription(NSObject *model) {
     }
     
     NSObject *one = [cls new];
-    if ([one modelSetWithDictionary:dictionary]) return one;
+    if ([one modelSetWithDictionary:dictionary]) 
+        return one;
     return nil;
 }
 

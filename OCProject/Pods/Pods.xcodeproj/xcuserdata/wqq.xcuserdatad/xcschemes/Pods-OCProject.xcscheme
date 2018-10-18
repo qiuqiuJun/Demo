@@ -7,33 +7,30 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForAnalyzing = "YES"
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA7CBA1A33E1515D73E0F93A978042EC"
-               BuildableName = "libPods-OCProject.a"
+               BlueprintIdentifier = "BD9646BA8116EB981C839B5FB532AA5C"
                BlueprintName = "Pods-OCProject"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-OCProject.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -41,25 +38,17 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
+      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA7CBA1A33E1515D73E0F93A978042EC"
-            BuildableName = "libPods-OCProject.a"
-            BlueprintName = "Pods-OCProject"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES">
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

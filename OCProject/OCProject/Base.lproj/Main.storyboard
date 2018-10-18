@@ -198,5 +198,60 @@
             </objects>
             <point key="canvasLocation" x="2261" y="-181"/>
         </scene>
+        <!--MakeQRVC-->
+        <scene sceneID="2dn-Dz-aBl">
+            <objects>
+                <viewController storyboardIdentifier="MakeQRVC" id="fvv-P5-h9S" customClass="MakeQRVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n9P-6a-rZE"/>
+                        <viewControllerLayoutGuide type="bottom" id="ebP-EX-CK0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LXv-SU-Ccc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMX-5U-7yf">
+                                <rect key="frame" x="149" y="524" width="77" height="30"/>
+                                <state key="normal" title="生产二维码"/>
+                                <connections>
+                                    <action selector="makeQRAction:" destination="fvv-P5-h9S" eventType="touchUpInside" id="cWX-eo-13D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkg-4f-wrZ">
+                                <rect key="frame" x="156" y="479" width="62" height="30"/>
+                                <state key="normal" title="添加图片"/>
+                                <connections>
+                                    <action selector="addImageAction:" destination="fvv-P5-h9S" eventType="touchUpInside" id="uMc-vh-9Pw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xgh-Ov-sRi">
+                                <rect key="frame" x="46" y="61" width="282" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="HHV-52-VqU"/>
+                                    <constraint firstAttribute="height" constant="282" id="f1v-Au-byt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xgh-Ov-sRi" firstAttribute="centerX" secondItem="bkg-4f-wrZ" secondAttribute="centerX" id="45x-oI-pd8"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="rMX-5U-7yf" secondAttribute="trailing" id="83Q-UZ-3N7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bkg-4f-wrZ" secondAttribute="trailing" constant="141" id="B50-qd-xXO"/>
+                            <constraint firstItem="rMX-5U-7yf" firstAttribute="leading" secondItem="LXv-SU-Ccc" secondAttribute="leadingMargin" constant="133" id="Mhb-Zo-qFm"/>
+                            <constraint firstItem="Xgh-Ov-sRi" firstAttribute="top" secondItem="n9P-6a-rZE" secondAttribute="bottom" constant="41" id="ilp-2l-C4O"/>
+                            <constraint firstItem="ebP-EX-CK0" firstAttribute="top" secondItem="rMX-5U-7yf" secondAttribute="bottom" constant="113" id="l8k-5P-Jcn"/>
+                            <constraint firstItem="rMX-5U-7yf" firstAttribute="top" secondItem="bkg-4f-wrZ" secondAttribute="bottom" constant="15" id="m8j-ir-SsH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="QRImageView" destination="Xgh-Ov-sRi" id="h9A-in-wLJ"/>
+                        <outlet property="addImageBtn" destination="bkg-4f-wrZ" id="MSw-3t-99t"/>
+                        <outlet property="makeQRBtn" destination="rMX-5U-7yf" id="ZqD-3j-ern"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yzc-o8-kwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3080.8000000000002" y="-167.76611694152925"/>
+        </scene>
     </scenes>
 </document>
