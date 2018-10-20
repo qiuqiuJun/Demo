@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OCProjectTests/OCProjectTests.m"
-            timestampString = "561434269.0220571"
+            timestampString = "561520786.719591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OCProject/StudyYYModel/StudyYYModelVC.m"
-            timestampString = "561434269.022543"
+            timestampString = "561520786.719674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OCProject/StudyYYModel/StudyYYModelVC.m"
-            timestampString = "561434269.022678"
+            timestampString = "561520786.719733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "212"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OCProject/StudyYYModel/StudyYYModelVC.m"
-            timestampString = "561434269.022921"
+            timestampString = "561520786.719785"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "217"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OCProject/StudyYYModel/StudyYYModelVC.m"
-            timestampString = "561434269.0232641"
+            timestampString = "561520786.719837"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -122,45 +122,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.023433"
+            timestampString = "561520786.7198859"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "479"
             endingLineNumber = "479"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.40777"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "479"
-                  endingLineNumber = "479"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.653061"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "479"
-                  endingLineNumber = "479"
-                  offsetFromSymbolStart = "72">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,45 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.023581"
+            timestampString = "561520786.719939"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "486"
             endingLineNumber = "486"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.41403"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "486"
-                  endingLineNumber = "486"
-                  offsetFromSymbolStart = "268">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.658152"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "486"
-                  endingLineNumber = "486"
-                  offsetFromSymbolStart = "268">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -218,45 +154,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.023753"
+            timestampString = "561520786.719988"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "495"
             endingLineNumber = "495"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.417691"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "495"
-                  endingLineNumber = "495"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.6626461"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "495"
-                  endingLineNumber = "495"
-                  offsetFromSymbolStart = "432">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -266,45 +170,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.023838"
+            timestampString = "561520786.7200381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "504"
             endingLineNumber = "504"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.421612"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "504"
-                  endingLineNumber = "504"
-                  offsetFromSymbolStart = "596">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.665363"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "504"
-                  endingLineNumber = "504"
-                  offsetFromSymbolStart = "596">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -321,38 +193,6 @@
             endingLineNumber = "347"
             landmarkName = "+classInfoWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[YYClassInfo classInfoWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434270.428983"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "347"
-                  endingLineNumber = "347"
-                  offsetFromSymbolStart = "352">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[YYClassInfo classInfoWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434275.668052"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "347"
-                  endingLineNumber = "347"
-                  offsetFromSymbolStart = "352">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -362,45 +202,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.0241801"
+            timestampString = "561520786.72013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "545"
             endingLineNumber = "545"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.436401"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "545"
-                  endingLineNumber = "545"
-                  offsetFromSymbolStart = "2436">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.67531"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "545"
-                  endingLineNumber = "545"
-                  offsetFromSymbolStart = "2436">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -410,45 +218,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.024316"
+            timestampString = "561520786.720184"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1454"
             endingLineNumber = "1454"
             landmarkName = "+modelWithJSON:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[NSObject(YYModel) modelWithJSON:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.443553"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1454"
-                  endingLineNumber = "1454"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[NSObject(YYModel) modelWithJSON:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.680032"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1454"
-                  endingLineNumber = "1454"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -458,45 +234,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561434269.0243911"
+            timestampString = "561520786.7202311"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1459"
             endingLineNumber = "1459"
             landmarkName = "+modelWithDictionary:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[NSObject(YYModel) modelWithDictionary:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434270.447662"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1459"
-                  endingLineNumber = "1459"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[NSObject(YYModel) modelWithDictionary:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561434275.682749"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1459"
-                  endingLineNumber = "1459"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -529,38 +273,6 @@
             endingLineNumber = "341"
             landmarkName = "+classInfoWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[YYClassInfo classInfoWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434356.849072"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "341"
-                  endingLineNumber = "341"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[YYClassInfo classInfoWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434356.851756"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "341"
-                  endingLineNumber = "341"
-                  offsetFromSymbolStart = "168">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -577,38 +289,6 @@
             endingLineNumber = "274"
             landmarkName = "-_update"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434441.740194"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "274"
-                  endingLineNumber = "274"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434441.742612"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "274"
-                  endingLineNumber = "274"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -625,38 +305,6 @@
             endingLineNumber = "290"
             landmarkName = "-_update"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434727.314622"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "290"
-                  endingLineNumber = "290"
-                  offsetFromSymbolStart = "584">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561434727.31792"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "290"
-                  endingLineNumber = "290"
-                  offsetFromSymbolStart = "584">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -673,38 +321,6 @@
             endingLineNumber = "302"
             landmarkName = "-_update"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435600.284411"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "302"
-                  endingLineNumber = "302"
-                  offsetFromSymbolStart = "1004">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435600.289441"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "302"
-                  endingLineNumber = "302"
-                  offsetFromSymbolStart = "1004">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -721,38 +337,6 @@
             endingLineNumber = "318"
             landmarkName = "-_update"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435641.614611"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "318"
-                  endingLineNumber = "318"
-                  offsetFromSymbolStart = "1816">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo _update]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435641.619655"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "318"
-                  endingLineNumber = "318"
-                  offsetFromSymbolStart = "1816">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -769,38 +353,6 @@
             endingLineNumber = "258"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435676.1227109"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "258"
-                  endingLineNumber = "258"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YYClassInfo initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/YYClassInfo.m"
-                  timestampString = "561435676.12521"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "258"
-                  endingLineNumber = "258"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -810,45 +362,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561435777.658165"
+            timestampString = "561520786.720397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "525"
             endingLineNumber = "525"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561435777.665665"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "525"
-                  endingLineNumber = "525"
-                  offsetFromSymbolStart = "872">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561435777.669927"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "525"
-                  endingLineNumber = "525"
-                  offsetFromSymbolStart = "872">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -858,45 +378,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-            timestampString = "561435929.94279"
+            timestampString = "561520786.720443"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "542"
             endingLineNumber = "542"
             landmarkName = "-initWithClass:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561435929.954914"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "542"
-                  endingLineNumber = "542"
-                  offsetFromSymbolStart = "2296">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[_YYModelMeta initWithClass:]"
-                  moduleName = "OCProjectTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wqq/git_iosProject/Demo/OCProject/Pods/YYKit/YYKit/Model/NSObject+YYModel.m"
-                  timestampString = "561435929.957276"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "542"
-                  endingLineNumber = "542"
-                  offsetFromSymbolStart = "2296">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

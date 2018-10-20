@@ -56,6 +56,9 @@
 		54E18E9A2175887200177C4F /* StudyYYModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18E992175887200177C4F /* StudyYYModelVC.m */; };
 		54E18E9D217588DB00177C4F /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18E9C217588DB00177C4F /* CustomModel.m */; };
 		54E18EA02175DCE300177C4F /* RuntimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18E9F2175DCE300177C4F /* RuntimeClass.m */; };
+		54E18EA82178148C00177C4F /* TestFMDBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18EA22178148C00177C4F /* TestFMDBVC.m */; };
+		54E18EA92178148C00177C4F /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18EA32178148C00177C4F /* DBHelper.m */; };
+		54E18EAA2178148C00177C4F /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E18EA42178148C00177C4F /* UserModel.m */; };
 		54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E28D0521384D1500DB4B41 /* AppDelegate.m */; };
 		54E28D0C21384D1500DB4B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0A21384D1500DB4B41 /* Main.storyboard */; };
 		54E28D0E21384D1600DB4B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E28D0D21384D1600DB4B41 /* Assets.xcassets */; };
@@ -230,6 +233,12 @@
 		54E18E9C217588DB00177C4F /* CustomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
 		54E18E9E2175DCE300177C4F /* RuntimeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeClass.h; sourceTree = "<group>"; };
 		54E18E9F2175DCE300177C4F /* RuntimeClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeClass.m; sourceTree = "<group>"; };
+		54E18EA22178148C00177C4F /* TestFMDBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFMDBVC.m; sourceTree = "<group>"; };
+		54E18EA32178148C00177C4F /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		54E18EA42178148C00177C4F /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		54E18EA52178148C00177C4F /* TestFMDBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFMDBVC.h; sourceTree = "<group>"; };
+		54E18EA62178148C00177C4F /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		54E18EA72178148C00177C4F /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
 		54E28D0121384D1500DB4B41 /* OCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E28D0421384D1500DB4B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54E28D0521384D1500DB4B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -527,6 +536,19 @@
 			path = StudyYYModel;
 			sourceTree = "<group>";
 		};
+		54E18EA12178148C00177C4F /* TestFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				54E18EA72178148C00177C4F /* DBHelper.h */,
+				54E18EA32178148C00177C4F /* DBHelper.m */,
+				54E18EA52178148C00177C4F /* TestFMDBVC.h */,
+				54E18EA22178148C00177C4F /* TestFMDBVC.m */,
+				54E18EA62178148C00177C4F /* UserModel.h */,
+				54E18EA42178148C00177C4F /* UserModel.m */,
+			);
+			path = TestFMDB;
+			sourceTree = "<group>";
+		};
 		54E28CF821384D1500DB4B41 = {
 			isa = PBXGroup;
 			children = (
@@ -552,6 +574,7 @@
 		54E28D0321384D1500DB4B41 /* OCProject */ = {
 			isa = PBXGroup;
 			children = (
+				54E18EA12178148C00177C4F /* TestFMDB */,
 				54E18E972175885000177C4F /* StudyYYModel */,
 				54612FE42170502B00639F6C /* TestKVC */,
 				54F4FD5621413349002D884C /* 57DC55C0-E73B-4962-AA34-C8C66AF2EC5C.png */,
@@ -955,11 +978,13 @@
 				54F4FE0D21416543002D884C /* CGFloat+.swift in Sources */,
 				54F4FE3A21416543002D884C /* EFThumbView.swift in Sources */,
 				54F4FE3621416543002D884C /* EFColorWheelView.swift in Sources */,
+				54E18EA82178148C00177C4F /* TestFMDBVC.m in Sources */,
 				54B7B79C21410DB5003C8A2F /* QRViewController.m in Sources */,
 				54F4FE3821416543002D884C /* EFControl.swift in Sources */,
 				54738FC9213CC4F100061DDB /* ChangeAppIconVC.m in Sources */,
 				54738FCB213CC4F100061DDB /* WkJsVC.m in Sources */,
 				54AB6752213BAF7600E73D06 /* MantouBreakfast.m in Sources */,
+				54E18EA92178148C00177C4F /* DBHelper.m in Sources */,
 				54F4FE2321416543002D884C /* ConstraintOffsetTarget.swift in Sources */,
 				54F4FE3B21416543002D884C /* EFColorSelectionViewController.swift in Sources */,
 				54E28D0621384D1500DB4B41 /* AppDelegate.m in Sources */,
@@ -968,6 +993,7 @@
 				54F4FE2E21416543002D884C /* ConstraintLayoutGuide+Extensions.swift in Sources */,
 				54F4FE3721416543002D884C /* EFRGBView.swift in Sources */,
 				54F4FE2921416543002D884C /* ConstraintItem.swift in Sources */,
+				54E18EAA2178148C00177C4F /* UserModel.m in Sources */,
 				54F4FE2A21416543002D884C /* Constraint.swift in Sources */,
 				54D2723F213FEB960085B92D /* GCDController.m in Sources */,
 				54F4FE2121416543002D884C /* Typealiases.swift in Sources */,

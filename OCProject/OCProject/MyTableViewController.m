@@ -80,7 +80,8 @@
   @{@"title":@"GCD",@"className":@"GCDController",@"storyboardId":@"GCDController"},
   @{@"title":@"QR",@"className":@"QRViewController"},
   @{@"title":@"kvc测试",@"className":@"TestKVC"},
-  @{@"title":@"YYModel学习",@"className":@"StudyYYModelVC"},nil];//
+  @{@"title":@"YYModel学习",@"className":@"StudyYYModelVC"},
+  @{@"title":@"fmdb",@"className":@"TestFMDBVC"},nil];//
     }
     return _itemArr;
 }
